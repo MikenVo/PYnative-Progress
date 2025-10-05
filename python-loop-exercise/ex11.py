@@ -33,7 +33,7 @@ def main():
 def findprime(s, sp):
     divi = 0
 
-    print(f"Prime numbers between {}")
+    print(f"Prime numbers between {s} and {sp}")
     for i in range(s, sp+1):
         for j in range(1,i+1):
             if i % j == 0:
@@ -41,3 +41,8 @@ def findprime(s, sp):
         
         if divi == 2:
             print(i)
+            divi = 0
+        else:
+            divi = 0
+
+main()
