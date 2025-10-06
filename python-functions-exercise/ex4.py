@@ -26,5 +26,3 @@ def main():
 
 def show_employee(name, salary=9000):
     return f"Name: {name} Salary: {salary}"
-
-main()
