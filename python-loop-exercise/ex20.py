@@ -10,9 +10,13 @@
 """
 
 def main():
-    n = 0
     m = 1
+    n = 2
 
-    
+    for i in range(2,7):
+        for j in range(m,n):
+            print(j, end=" ")
+        print("\n", end="")
 
-main()
+        m = n
+        n = m + i
