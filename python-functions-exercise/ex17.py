@@ -13,5 +13,3 @@ def main():
 
     sdata = sorted(data, key=lambda x: x[1])
     print(sdata)
-
-main()
